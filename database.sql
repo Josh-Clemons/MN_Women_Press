@@ -275,20 +275,20 @@ VALUES
 
 INSERT INTO "public"."theme_story"("story_id","theme_id")
 VALUES
-(54,9),
-(58,1),
-(59,1),
-(60,2),
-(62,1),
-(57,5),
-(68,1),
-(72,3),
-(65,6),
-(64,6),
-(55,9),
-(56,9),
-(70,4),
-(74,8);
+(1,9),
+(2,1),
+(3,1),
+(4,2),
+(5,1),
+(6,5),
+(7,1),
+(8,3),
+(9,6),
+(10,6),
+(11,9),
+(12,9),
+(13,4),
+(14,8);
 
 /*Contacts*/ 
 
@@ -322,21 +322,21 @@ VALUES
 
 INSERT INTO "public"."story_contact"("story_id","contact_id","story_association","invoice_paid","invoice_amount")
 VALUES
-(72,2,E'author',NULL,NULL),
-(58,6,NULL,NULL,NULL),
-(67,7,E'author',NULL,NULL),
-(55,9,E'author',NULL,NULL),
-(59,10,NULL,NULL,NULL),
-(68,10,E'author',NULL,NULL),
-(56,10,E'author',NULL,NULL),
-(71,11,NULL,NULL,NULL),
-(73,11,E'author',NULL,NULL),
-(55,11,E'source',NULL,NULL),
-(74,11,E'author',NULL,NULL),
-(60,12,NULL,NULL,NULL),
-(62,13,NULL,NULL,0),
-(66,13,E'author',NULL,NULL),
-(54,14,E'author',NULL,100);
+(1,2,E'author',NULL,NULL),
+(2,6,NULL,NULL,NULL),
+(3,7,E'author',NULL,NULL),
+(4,9,E'author',NULL,NULL),
+(5,1,NULL,NULL,NULL),
+(6,1,E'author',NULL,NULL),
+(7,1,E'author',NULL,NULL),
+(8,1,NULL,NULL,NULL),
+(9,1,E'author',NULL,NULL),
+(10,1,E'source',NULL,NULL),
+(11,1,E'author',NULL,NULL),
+(12,2,NULL,NULL,NULL),
+(13,3,NULL,NULL,0),
+(14,3,E'author',NULL,NULL),
+(15,4,E'author',NULL,100);
 
 /* Tags */ 
 
@@ -358,22 +358,22 @@ VALUES
 
 INSERT INTO "public"."story_tag"("story_id","tag_id")
 VALUES
-(54,26),
-(62,1),
-(63,13),
-(57,9),
-(57,27),
-(68,13),
-(65,25);
+(1,2),
+(2,1),
+(3,3),
+(4,5),
+(5,7),
+(6,8),
+(6,9);
 
 
 INSERT INTO "public"."tag_contact"("tag_id","contact_id")
 VALUES
 (5,1),
 (9,2),
-(2,7),
-(24,7),
-(25,9);
+(2,1),
+(2,2),
+(2,3);
 
 /*Role*/ 
 INSERT INTO "role"
@@ -395,9 +395,9 @@ VALUES
 (1,3),
 (2,1),
 (2,3),
-(6,5),
-(7,9),
-(8,7),
-(10,1),
-(12,3),
-(13,6);
+(1,5),
+(3,9),
+(3,7),
+(2,1),
+(2,3),
+(1,6);
